@@ -3,13 +3,13 @@ import {useState} from "react";
 
 function App() {
   
-  const [result, setResult] = useState("");
+  const [result, setResult] = useState(" ");
 
   const handleClick = (e) =>{
     setResult(result.concat(e.target.name));
   }
   const clear=()=>{
-    setResult("");
+    setResult(" ");
   }
   
 
